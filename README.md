@@ -1,7 +1,21 @@
 # Ember-boostrap-sass-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Example setup for incorporating Bootstrap Sass into an Ember project.
+
+Based on <http://erikaybar.name/ember-js-bootstrap-sass-and-ember-cli-quick-start/>
+
+See the [repository](https://github.com/erikthedeveloper/emberjs-bootstrap3-starter-app) which is more complete than the blog post.
+
+## How this was built
+
+```bash
+$ ember new my-new-project
+$ cd my-new-project
+$ bower install --save bootstrap-sass-official
+$ npm install --save-dev broccoli-sass
+$ mv app/styles/app.css app/styles/app.scss
+$ bower install --save fontawesome
+```
 
 ## Prerequisites
 
@@ -50,4 +64,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
